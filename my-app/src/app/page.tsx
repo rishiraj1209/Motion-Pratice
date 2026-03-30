@@ -1,8 +1,9 @@
 import React from 'react'
-import MotionHooksExample from '../components/AnimatedHooks/MotionHooksExample'
+import LayoutCard from '../components/AnimatedLayoutCards/LayoutCard'
 // import Content from '../components/AnimatedButton/content'
 // import AnimateCard from '../components/AnimatedCard/AnimateCard'
 // import MainSidebar from '../components/AnimatedSidebar/MainSidebar'
+// import MotionHooksExample from '../components/AnimatedHooks/MotionHooksExample'
 
 
 const page = () => {
@@ -11,7 +12,8 @@ const page = () => {
       {/* <Content/> */}
       {/* <AnimateCard/> */}
       {/* <MainSidebar/> */}
-      <MotionHooksExample/>
+      {/* <MotionHooksExample/> */}
+      <LayoutCard/>
     </div>
   )
 }
